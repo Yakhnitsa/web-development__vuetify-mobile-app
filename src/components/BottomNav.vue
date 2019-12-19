@@ -1,22 +1,22 @@
 <template>
 
-    <v-bottom-nav app fixed :active.sync="activeItem" :value="true">
+    <v-bottom-navigation v-model="activeItem">
         <v-btn flat color="primary" value="top">
             <span>Top Stories</span>
-            <v-icon>thumb_up</v-icon>
+            <v-icon>mdi-thumb-up-outline</v-icon>
         </v-btn>
 
-        <v-btn flat color="primary" value="code">
+        <v-btn color="primary" value="code">
             <span>Code Examples</span>
-            <v-icon>code</v-icon>
+            <v-icon>mdi-code-tags</v-icon>
         </v-btn>
 
         <v-btn flat color="primary" value="favorites">
             <span>Favorites</span>
-            <v-icon>favorite</v-icon>
+            <v-icon>mdi-heart-outline</v-icon>
         </v-btn>
 
-    </v-bottom-nav>
+    </v-bottom-navigation>
 
 </template>
 
@@ -25,5 +25,6 @@
     @Component
     export default class BottomNav extends Vue {
         activeItem: string = 'top';
+        activeBtn: 1
     }
 </script>

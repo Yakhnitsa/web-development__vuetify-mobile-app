@@ -4,7 +4,7 @@
 
     <TopToolbar></TopToolbar>
 
-    <!--<BottomNav></BottomNav>-->
+    <BottomNav></BottomNav>
 
   </v-app>
 </template>
