@@ -35,7 +35,14 @@
     настраиваем router/index.ts
 ### 3.2 Редактирование bottom bar 
     добавить пути в bottom bar:
-    
+    <v-btn flat color="primary" :to="{ path: '/'}">
+    или по имени6
+    <v-btn flat color="primary" :to="{ name: 'code-examples'}">
+### 3.3 Помещаем router vue в приложение
+    в шаблоне App.cue помещаем     
+    <v-content>
+       <router-view></router-view>
+    </v-content>
 # vuetify-mobile-app
 
 ## Project setup

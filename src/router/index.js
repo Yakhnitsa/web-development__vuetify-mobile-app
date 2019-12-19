@@ -1,11 +1,9 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import CodeExamples from '../views/CodeExamples.vue'
-import TopStories from '../views/TopStories.vue'
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import CodeExamples from '../views/CodeExamples.vue';
+import TopStories from '../views/TopStories.vue';
 // import MyFavorites from '../views/MyFavorites.vue'
-
-Vue.use(VueRouter)
-
+Vue.use(VueRouter);
 const routes = [
     {
         path: '/',
@@ -25,10 +23,10 @@ const routes = [
         // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "about" */ '../views/MyFavorites.vue')
     }
-]
-
+];
 export default new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes
-})
+    mode: 'history',
+    base: process.env.BASE_URL,
+    routes
+});
+//# sourceMappingURL=index.js.map
