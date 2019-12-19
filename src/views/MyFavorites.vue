@@ -1,0 +1,16 @@
+<template>
+    <v-container>
+        <h1 class="headline">[[My Favrites]]</h1>
+        Content is coming to this mobile app very soon!
+    </v-container>
+</template>
+
+<script>
+    export default {
+        name: "MyFavorites.vue"
+    }
+</script>
+
+<style scoped>
+
+</style>

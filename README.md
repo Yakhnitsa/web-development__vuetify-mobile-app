@@ -29,7 +29,13 @@
         <v-icon>mdi-wrench</v-icon>
         <v-icon>mdi-help-rhombus-outline</v-icon>
      
-
+## 3. Создание страниц и настройка роутера
+### 3.1 Создание страниц
+    в папке views создаем  MyFavorites.vue, CodeExamples.vue, TopStories.vue
+    настраиваем router/index.ts
+### 3.2 Редактирование bottom bar 
+    добавить пути в bottom bar:
+    
 # vuetify-mobile-app
 
 ## Project setup

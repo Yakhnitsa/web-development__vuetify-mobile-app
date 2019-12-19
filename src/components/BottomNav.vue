@@ -1,6 +1,7 @@
 <template>
 
-    <v-bottom-navigation v-model="activeItem">
+    <v-bottom-navigation
+            v-model="activeItem">
         <v-btn flat color="primary" value="top">
             <span>Top Stories</span>
             <v-icon>mdi-thumb-up-outline</v-icon>
