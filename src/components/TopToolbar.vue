@@ -34,13 +34,20 @@
     </div>
 </template>
 
-<script lang="ts">
-    import { Component, Vue } from 'vue-property-decorator';
-    @Component
-    export default class TopToolbar extends Vue {
-        showMenu: boolean = false;
-        toggleMenu(): void {
-            this.showMenu = !this.showMenu;
+<script>
+    export default {
+        name: 'TopToolbar',
+        data: function(){
+            return{
+                showMenu: false,
+            }
+        },
+        methods:{
+            toggleMenu: function() {
+                this.showMenu = !this.showMenu
+            }
         }
+
+
     }
 </script>

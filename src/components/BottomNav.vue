@@ -20,11 +20,13 @@
 
 </template>
 
-<script lang="ts">
-    import { Component, Vue } from 'vue-property-decorator';
-    @Component
-    export default class BottomNav extends Vue {
-        activeItem: string = 'top';
-        activeBtn: 1
+<script>
+    export default {
+        name: 'BottomNavbar',
+        data: function(){
+            return{
+                activeItem: 'top',
+            }
+        }
     }
 </script>

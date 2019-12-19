@@ -9,16 +9,14 @@
   </v-app>
 </template>
 
-<script lang="ts">
-    import { Component, Vue } from 'vue-property-decorator';
+<script>
     import TopToolbar from './components/TopToolbar.vue';
     import BottomNav from './components/BottomNav.vue';
-    @Component({
+
+    export default {
         components: {
             TopToolbar,
             BottomNav
         }
-    })
-    export default class extends Vue {
     }
 </script>
