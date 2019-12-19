@@ -14,7 +14,21 @@
 ### 1.4 Установка Vuetify
     vue add vuetify
     
-    
+## 2. Создание оболочки приложения
+### 2.1 Создание заголовка (Верхней панели)
+    создать компонент TopToolbar.vue в src/components   
+### 2.2 Создание нижней панели
+    создать компонент BottomNav.vue
+### 2.3 Установка компоненков в приложении
+    отредактировать App.vue
+### 2.4 Отредактировать компоненты и иконки
+    - f-12 в браузере - заменить все deprecated компоненты
+    - заменить все иконки на иконки material design
+        https://cdn.materialdesignicons.com/4.7.95/
+        пример:
+        <v-icon>mdi-wrench</v-icon>
+        <v-icon>mdi-help-rhombus-outline</v-icon>
+     
 
 # vuetify-mobile-app
 
