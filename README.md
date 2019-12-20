@@ -43,6 +43,11 @@
     <v-content>
        <router-view></router-view>
     </v-content>
+## 4 Перезапуск приложения
+    при копировании git clone запуск приложения производится:
+       npm install
+       npm run serve
+       
 # vuetify-mobile-app
 
 ## Project setup
