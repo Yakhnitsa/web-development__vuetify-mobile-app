@@ -2,7 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import CodeExamples from '../views/CodeExamples.vue';
 import TopStories from '../views/TopStories.vue';
-import LoginPage from '../views/LogitPage.vue';
+import LoginPage from '../views/LoginPage.vue';
 Vue.use(VueRouter);
 const routes = [
     {

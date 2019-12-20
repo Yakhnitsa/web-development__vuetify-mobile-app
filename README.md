@@ -1,4 +1,5 @@
 # Создание мобильного приложения с использованием vuetify
+Текст туториала по адресу: [Creating a Mobile Web App with Vue](https://medium.com/@JonUK/creating-a-mobile-web-app-with-vue-vuetify-typescript-dc69bed4cd2d)
 ## 1. Установка приложения
 ###    1.1. Установка vue/cli
     npm install -g @vue/cli
@@ -22,12 +23,12 @@
 ### 2.3 Установка компоненков в приложении
     отредактировать App.vue
 ### 2.4 Отредактировать компоненты и иконки
-    - f-12 в браузере - заменить все deprecated компоненты
-    - заменить все иконки на иконки material design
-        https://cdn.materialdesignicons.com/4.7.95/
-        пример:
-        <v-icon>mdi-wrench</v-icon>
-        <v-icon>mdi-help-rhombus-outline</v-icon>
+   - f-12 в браузере - заменить все deprecated компоненты
+   заменить все иконки на иконки [material design icons](https://cdn.materialdesignicons.com/4.7.95/)
+   
+             пример:
+            <v-icon>mdi-wrench</v-icon>
+            <v-icon>mdi-help-rhombus-outline</v-icon>
      
 ## 3. Создание страниц и настройка роутера
 ### 3.1 Создание страниц

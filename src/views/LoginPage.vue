@@ -34,7 +34,7 @@
 
 <script>
     export default {
-        name: "LogitPage.vue",
+        name: "LoginPage.vue",
         data: function(){
             return{
                 showPassword: false,
