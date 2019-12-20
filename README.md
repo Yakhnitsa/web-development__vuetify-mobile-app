@@ -43,10 +43,20 @@
     <v-content>
        <router-view></router-view>
     </v-content>
-## 4 Перезапуск приложения
-    при копировании git clone запуск приложения производится:
-       npm install
-       npm run serve
+## 4 добавляем страницу логина
+###    4.1.  добавляем кнопку логина в приложение
+###    4.2. созданем странциу логина
+###    4.3. Редактируем в роутере ссылку на логин
+
+## Патчи и дополнения:
+### При возникновении ошибки Could not find a declaration file for module 'vuetify/lib'
+    добавить в файл конфигурации tsconfig.json 
+    "compilerOptions": {
+        "types": ["vuetify"],
+### При копировании git clone запуск приложения производится:
+        npm install
+        npm run serve
+        
        
 # vuetify-mobile-app
 

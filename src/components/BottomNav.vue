@@ -2,7 +2,7 @@
 
     <v-bottom-navigation
             v-model="activeItem">
-        <v-btn flat color="primary"
+        <v-btn color="primary"
                value="top"
                :to="{ path: '/'}">
             <span>Top Stories</span>
@@ -15,7 +15,7 @@
             <v-icon>mdi-code-tags</v-icon>
         </v-btn>
 
-        <v-btn flat color="primary"
+        <v-btn color="primary"
                value="favorites" :to="{name: 'my-favorites'}">
             <span>Favorites</span>
             <v-icon>mdi-heart-outline</v-icon>

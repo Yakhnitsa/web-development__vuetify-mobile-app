@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import CodeExamples from '../views/CodeExamples.vue'
 import TopStories from '../views/TopStories.vue'
-// import MyFavorites from '../views/MyFavorites.vue'
+import LoginPage from '../views/LogitPage.vue'
 
 Vue.use(VueRouter)
 
@@ -16,6 +16,11 @@ const routes = [
         path: '/code-examples',
         name: 'code-examples',
         component: CodeExamples
+    },
+    {
+        path: '/login',
+        name: 'login',
+        component: LoginPage
     },
     {
         path: '/favorites',
