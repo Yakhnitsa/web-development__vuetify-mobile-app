@@ -53,6 +53,10 @@
 ### 5.1 Создаем шаблон в файле NewsList.vue
 ### 5.2 Копируем картинки из 
 из [репозитория](https://github.com/JonUK/vuetify-mobile-app) копируем папку 
+### 5.3 Создаем интерфейс и енюм для новостей
+    созадем файл types.ts и определяем типы
+    создаем сервис новостей в файле src/services/newsService.ts
+    импортируем типы в сервис новостей import { ArticleType, NewsArticle } from '../types';
 
 ## Патчи и дополнения:
 ### При возникновении ошибки Could not find a declaration file for module 'vuetify/lib'

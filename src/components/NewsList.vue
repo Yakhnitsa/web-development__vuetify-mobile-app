@@ -3,24 +3,24 @@
 
         <v-container fluid grid-list-lg>
             <v-layout row wrap>
-                <v-flex xs12>
+                <v-flex xs12 v-for="newsArticle in newsArticles" :key="newsArticle.id">
                     <v-card>
                         <v-container fluid grid-list-lg>
                             <v-layout row>
                                 <v-flex xs9>
                                     <div>
                                         <div class="subheading font-weight-medium">
-                                            Vue.js is the absolute rockstar of the JavaScript ecosystem
+                                            {{newsArticle.title}}
                                         </div>
-                                        <div>Jan 22 2019</div>
+                                        <div>{{newsArticle.dateString}}</div>
                                     </div>
                                 </v-flex>
                                 <v-flex xs3>
                                     <v-img
                                             contain
-                                            src="/thumbnails/winner.png"
-                                            srcset="/thumbnails/winner.png 1x,
-                            /thumbnails/winner@2x.png 2x"
+                                            :src="`../thumbnails/${newsArticle.baseImageName}.png`"
+                                            :srcset="`../thumbnails/${newsArticle.baseImageName}.png 1x,
+                             /thumbnails/${newsArticle.baseImageName}@2x.png 2x`"
                                             height="72px"
                                             transition="false"
                                     ></v-img>
@@ -38,7 +38,8 @@
 
 <script>
     export default {
-        name: "NewsList.vue"
+        name: "NewsList.vue",
+        props:['newsArticles']
     }
 </script>
 
