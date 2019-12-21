@@ -67,6 +67,11 @@
         npm install
         npm run serve
         
+### При ошибках в путях к картинкам
+    прим src="/pictures/picture.png" - работает
+    :src"/pictures/picture.png" - не работает, сделать путь полным:
+    :src"../pictures/picture.png"        
+        
        
 # vuetify-mobile-app
 
