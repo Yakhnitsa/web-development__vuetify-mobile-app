@@ -58,6 +58,10 @@
     создаем сервис новостей в файле src/services/newsService.ts
     импортируем типы в сервис новостей import { ArticleType, NewsArticle } from '../types';
 
+## Дальнейшее развитие проекта:
+Дальнейшее развитие проекта определено в файле [TODO.md](../TODO.md) 
+Дальнейшее развитие проекта определено в файле [TODO.md](TODO.md) 
+
 ## Патчи и дополнения:
 ### При возникновении ошибки Could not find a declaration file for module 'vuetify/lib'
     добавить в файл конфигурации tsconfig.json 
